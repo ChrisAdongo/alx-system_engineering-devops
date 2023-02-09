@@ -5,3 +5,4 @@ The script ls -la displays current directory contents including hidden files
 the script ls -alh --numeric-uid-gid is used to display current directory contents
 The script mkdir /tmp/my_first_directory creates a directory named my_first_directory in the /tmp/ directory
 The script mv /tmp/betty /tmp/my_first_directory/ would move betty from tmp to my_first_repository.
+The script rm is used to delete a file.
