@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo chwon betty 0-iam_betty \n
+su betty
+sudo chwon betty 0-iam_betty 
