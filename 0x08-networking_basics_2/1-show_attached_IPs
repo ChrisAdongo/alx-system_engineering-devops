@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+interfaces=$(ifconfig -a)
+ipv4_addresses=$(echo "$interfaces" | grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b")
+echo "$ipv4_addresses"
